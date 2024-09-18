@@ -1,0 +1,157 @@
+.app__header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 2px solid var(--border-color);
+    min-height: var(--header-height);
+    background-color: var(--white-color);
+}
+
+.header__navbar-list {
+    display: flex;
+    margin: 18px 0;
+}
+
+.header__navbar-item {
+    list-style: none;
+    margin-right: 12px;
+}
+
+.header__navbar-item-link {
+    text-decoration: none;
+    padding: 8px 8px;
+    font-size: 1.6rem;
+    color: var(--black-color);
+}
+
+.header__navbar-item-link:hover {
+    color: var(--theme-color);
+}
+
+.app__container {
+    margin-top: calc(var(--header-height) + 62px);
+}
+
+.myInfo {
+    margin-bottom: 62px;
+}
+
+.myInfo__name {
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.myInfo__career {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.myInfo__career-link {
+    text-decoration: none;
+    color: var(--theme-color);
+}
+
+.myInfo__process::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.myInfo__process-img {
+    --size-img: 200px;
+
+    width: var(--size-img);
+    height: var(--size-img);
+    border-radius: 100%;
+    margin: 5px 5px;
+    float: right;
+}
+
+.myInfo__process-des {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}   
+
+.news {
+    margin-bottom: 62px;
+}
+
+.news__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+table tr {
+    height: 40px;
+}
+
+.news__table-time {
+    text-align: left;
+    vertical-align: top;
+    width: 40%;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--text-color);
+    white-space: nowrap;
+}
+
+.news__table-info {
+    text-align: left;
+    vertical-align: top;
+    width: 60%;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.news__table-info-img {
+    font-size: 1.4rem;
+    color: var(--black-color);
+    background-color: var(--theme-color);
+}
+
+.publication {
+    margin-bottom: 62px;
+}
+
+.publication__title {
+    font-size: 3.2rem;
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.publication__item {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.app__footer {
+    margin: 20px 0;
+}
+
+.footer__socials-title {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: var(--black-color);
+}
+
+.footer__socials-method {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--theme-color);
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.footer_socials-name {
+    margin-left: 10px;
+}
